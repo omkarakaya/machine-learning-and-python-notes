@@ -59,6 +59,7 @@ number of items to evaluate to get a similar score to the population which is th
     - Evaluate with human evaluation.
     - Tune a prompt which achieves a similar evaulation performance to metrics from the users.
     - We can use traditional train-validation-test splits for prompt tuninig.
+    - Increase number of items in case of a overfitting/underfitting.
     - Use the prompt on larger tasks.
 - We can rely on one or multiple LLMs.
 - If we use multiple LLMs, we can apply majority voting or averages.
@@ -80,3 +81,7 @@ model is to generate the input text sequence.
 - As a metric, it can be used to evaluate how well 
 the model has learned the distribution of the text it was trained on.
 
+
+Callibration Metrics:
+- Estimated Calibration Error
+https://arxiv.org/html/2402.06544v2
