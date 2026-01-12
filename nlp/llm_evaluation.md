@@ -57,7 +57,7 @@ number of items to evaluate to get a similar score to the population which is th
 - The main idea is to tune a prompt on a small subset of the test set:
     - Pick ~100 representative items from the test set.
     - Evaluate with human evaluation.
-    - Tune a prompt which achieves a similar evaulation performance to metrics from the users.
+    - Tune a prompt which achieves a similar evaluation performance to metrics from the users.
     - We can use traditional train-validation-test splits for prompt tuninig.
     - Increase number of items in case of a overfitting/underfitting.
     - Use the prompt on larger tasks.
